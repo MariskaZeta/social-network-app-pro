@@ -13,7 +13,7 @@ const UserSchema = new Schema(
       unique: true,
       required: true,
       match: [/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/, 'Email address is not valid, please try again']
-    ,
+    },
     thoughts: [
       {
         type: Schema.Types.ObjectId,
