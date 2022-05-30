@@ -36,13 +36,13 @@ const UserSchema = new Schema(
   }
 );
 
-// User model using the UserSchema
-const User = model("User", UserSchema);
-
 // get total count of friends
 UserSchema.virtual("friendCount").get(function() {
   return this.friends.length;
 });
+
+// User model using the UserSchema
+const User = model("User", UserSchema);
 
 // export the User model
 module.exports = User;
