@@ -98,7 +98,7 @@ deleteThought({ params }, res) {
 createReaction({ params, body }, res) {
   Thought.findOneAndUpdate(
     { _id: params.thoughtId },
-    { $push: { reactions: body } },
+    { $addToSet: { reactions: body } },
     { new: true }
   )
   .populate({ path: "reactions", select: "-__v"})
@@ -114,11 +114,11 @@ createReaction({ params, body }, res) {
 },
 
 // remove a reaction
-deleteReaction({ params }, res) {
+deleteReaction(req, res) {
   // removing the reaction from the thought
   Thought.findOneAndUpdate(
-    { _id: params.thoughtId },
-    { $pull: { reactions: { reactionId: params.reactionId } } },
+    { _id: req.params.thoughtId },
+    { $pull: { reactions: { reactionId: req.params.reactionId } } },
     { new: true }
   )
   .then(dbThoughtData => {
