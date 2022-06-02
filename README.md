@@ -17,7 +17,7 @@ Express.js is used for routing. Routes are tested through Insomnia.
 - [Screenshots](#screenshots)
 
 ## Github
-Here is the link to the GitHub URL:
+Here is the link to the GitHub URL: https://github.com/MariskaZeta/social-network-app-pro
 
 Here is the link to clone for the GitHub repository: https://github.com/MariskaZeta/social-network-app-pro.git
 
