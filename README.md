@@ -1,6 +1,12 @@
 # social-network-app-pro
 
 ## Description
+An API that uses MongoDB and Mongoose to perform CRUD operations for adding, updating, and removing for the following:
+users, thoughts, and reactions to those thoughts. You can also add and remove friends from a user's friend list.
+
+You are able to query through to return all or return by id for users, thoughts, or reactions.
+This project uses a NoSQL database, MongoDB and uses Mongoose to create the models.
+Express.js is used for routing. Routes are tested through Insomnia.
 
 ## Table of Contents
 
@@ -27,6 +33,13 @@ Here is the link to the video demonstration:
 ## Usage
 
 ## Technologies
+* JavaScript
+* Express.js
+* MongoDB
+* Mongoose
+* npm
+* Node.js
+* Insomnia
 
 ## Instructions
 
