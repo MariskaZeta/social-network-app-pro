@@ -22,7 +22,7 @@ Here is the link to the GitHub URL:
 Here is the link to clone for the GitHub repository:
 
 # Video
-Here is the link to the video demonstration:
+Here is the link to the video demonstration: https://drive.google.com/file/d/1eARJI3IHhtDG6xIAo40AFakGla5961zM/view
 
 ## Installation
 1. Git clone the repository.
