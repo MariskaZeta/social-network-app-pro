@@ -45,6 +45,9 @@ Here is the link to the video demonstration: https://drive.google.com/file/d/1eA
 * Insomnia
 
 ## Screenshots
+<img width="1728" alt="social-network-app-pro-screenshot1" src="https://user-images.githubusercontent.com/102756451/171741223-5f5bb39b-7d5b-45b2-87bc-593af4c577ae.png">
+
+<img width="1728" alt="social-network-app-pro-screenshot2" src="https://user-images.githubusercontent.com/102756451/171741241-b50364a3-26fa-4267-b887-fb70a71c22a0.png">
 
 ## Author
 Madison Kendall
