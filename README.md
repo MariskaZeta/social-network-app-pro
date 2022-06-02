@@ -19,14 +19,14 @@ Express.js is used for routing. Routes are tested through Insomnia.
 ## Github
 Here is the link to the GitHub URL:
 
-Here is the link to clone for the GitHub repository:
+Here is the link to clone for the GitHub repository: https://github.com/MariskaZeta/social-network-app-pro.git
 
 # Video
 Here is the link to the video demonstration: https://drive.google.com/file/d/1eARJI3IHhtDG6xIAo40AFakGla5961zM/view
 
 ## Installation
 1. Git clone the repository.
-* You can copy this link: ` `
+* You can copy this link: `https://github.com/MariskaZeta/social-network-app-pro.git`
 2. Install MongoDB and Node.js
 3. Run the following commands in the integrated terminal
 * `npm init -y`.
